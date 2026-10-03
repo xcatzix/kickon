@@ -1,5 +1,6 @@
 -- Author: xcatzix  
 -- mailto: 3949745980@qq.com  
+-- Using it in paying money  
 
 # 对plasma-desktop中的kickoff相关代码进行如下修改:
 -- 1. 将各软件应用归类放入到Applications这个位置, 去掉总标签Applications ,各软件分类标签横向  
