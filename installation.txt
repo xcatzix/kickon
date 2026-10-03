@@ -1,0 +1,16 @@
+Kick on standalone Plasma 6 Plasmoid
+
+Install:
+  -- mkdir -p ~/.local/share/plasma/plasmoids
+  ```terminal
+  >$cp -r /pAth/your/downloade/org.kde.plasma.kickon-fix4 "{HOME}"/.local/share/plasma/plasmoids/org.kde.plasma.kickon
+  ```
+  
+The resulting directory is:
+  ~/.local/share/plasma/plasmoids/org.kde.plasma.kickon
+
+Then add "Application Launcher" to the panel/desktop from Plasma's widget picker.
+
+This package is intended for Plasma 6. It uses the system-provided KDE/Plasma
+QML modules, including org.kde.plasma.private.kicker, so it does not require
+compiling plasma-desktop.
